@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RegistrationController {
 
-    private NotificationServiceClient notificationServiceClient;
+    private final NotificationServiceClient notificationServiceClient;
 
     @Autowired
     public RegistrationController(NotificationServiceClient notificationServiceClient){
