@@ -6,10 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableFeignClients
 @SpringBootApplication
-public class RegistrationServiceApplication {
+public class RegistrationServiceApplication{
 
-	public static void main(String[] args) {
-		SpringApplication.run(RegistrationServiceApplication.class, args);
-	}
-
+	public static void main(String[] args) {SpringApplication.run(RegistrationServiceApplication.class, args);}
 }
